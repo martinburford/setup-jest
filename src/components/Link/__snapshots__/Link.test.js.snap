@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Link /> renders correctly (with error prop) 1`] = `
+<div>
+  <a
+    className="error"
+    href="http://www.site.com"
+    onClick={[Function]}
+    onMouseLeave={[Function]}
+  >
+    Site
+  </a>
+</div>
+`;
+
+exports[`<Link /> renders correctly (with no additional props) 1`] = `
+<div>
+  <a
+    className="normal"
+    href="http://www.site.com"
+    onClick={[Function]}
+    onMouseLeave={[Function]}
+  >
+    Site
+  </a>
+</div>
+`;
